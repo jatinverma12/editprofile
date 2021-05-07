@@ -1,7 +1,35 @@
 body {
-  font-family: 'Almarai';
-  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
+/* MY CSS STARTS */
+#profileImage{
+  position: absolute;
+  
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  #profileImage{
+    left: 4%;
+    top: 72%;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+  #profileImage{
+    top: 74%;
+  left: 6%;
+  font-size: 1.8rem;
+  }
+} 
+@media screen and (min-width:1024px) and (max-width:1440px) {
+  #profileImage{
+    top: 80%;
+  left: 6%;
+  font-size: 1.8rem;
+  }
+} 
+/* MY CSS ENDS */
 .top{
     /* background: radial-gradient(#fff,#ffd6d6); */
     min-height: 100px;
@@ -684,7 +712,7 @@ transform: rotate(306deg) translate(13em) rotate(-306deg);
 }
 .v{
   height: 388px;
-  border-left: 2px solid rgb(90, 90, 90);
+  
   padding: 13px;
 }
 .row1{
